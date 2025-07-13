@@ -1,0 +1,70 @@
+.color-container{
+    display: grid;
+    grid-template-columns: repeat(10, 150px);
+    margin-bottom: 10px;
+}
+
+.color-container div {
+    width: 150px;
+    height: 150px;
+}
+#example1 .color1 { background-color: var(--green0); }
+#example1 .color2 { background-color: var(--green1); }
+#example1 .color3 { background-color: var(--green2); }
+#example1 .color4 { background-color: var(--green3); }
+#example1 .color5 { background-color: var(--green4); }
+#example1 .color6 { background-color: var(--green5); }
+#example1 .color7 { background-color: var(--green6); }
+#example1 .color8 { background-color: var(--green7); }
+#example1 .color9 { background-color: var(--green8); }
+#example1 .color10 { background-color: var(--green9); }
+
+#example2 .color1 { background-color: var(--red0); }
+#example2 .color2 { background-color: var(--red1); }
+#example2 .color3 { background-color: var(--red2); }
+#example2 .color4 { background-color: var(--red3); }
+#example2 .color5 { background-color: var(--red4); }
+#example2 .color6 { background-color: var(--red5); }
+#example2 .color7 { background-color: var(--red6); }
+#example2 .color8 { background-color: var(--red7); }
+#example2 .color9 { background-color: var(--red8); }
+#example2 .color10 { background-color: var(--red9); }
+
+#example3 .color1 { background-color: var(--blue0); }
+#example3 .color2 { background-color: var(--blue1); }
+#example3 .color3 { background-color: var(--blue2); }
+#example3 .color4 { background-color: var(--blue3); }
+#example3 .color5 { background-color: var(--blue4); }
+#example3 .color6 { background-color: var(--blue5); }
+#example3 .color7 { background-color: var(--blue6); }
+#example3 .color8 { background-color: var(--blue7); }
+#example3 .color9 { background-color: var(--blue8); }
+#example3 .color10 { background-color: var(--blue9); }
+
+#example4 .color1 { background-color: var(--yellow0); }
+#example4 .color2 { background-color: var(--yellow1); }
+#example4 .color3 { background-color: var(--yellow2); }
+#example4 .color4 { background-color: var(--yellow3); }
+#example4 .color5 { background-color: var(--yellow4); }
+#example4 .color6 { background-color: var(--yellow5); }
+#example4 .color7 { background-color: var(--yellow6); }
+#example4 .color8 { background-color: var(--yellow7); }
+#example4 .color9 { background-color: var(--yellow8); }
+#example4 .color10 { background-color: var(--yellow9); }
+
+#example5 .color1 { background-color: var(--violet0); }
+#example5 .color2 { background-color: var(--violet1); }
+#example5 .color3 { background-color: var(--violet2); }
+#example5 .color4 { background-color: var(--violet3); }
+#example5 .color5 { background-color: var(--violet4); }
+#example5 .color6 { background-color: var(--violet5); }
+#example5 .color7 { background-color: var(--violet6); }
+#example5 .color8 { background-color: var(--violet7); }
+#example5 .color9 { background-color: var(--violet8); }
+#example5 .color10 { background-color: var(--violet9); }
+
+#example1 { --hue1: green; }
+#example2 { --hue1: red; }
+#example3 { --hue1: 200; }
+#example4 { --hue1: 250; }
+#example5 { --hue1: 350; }
