@@ -63,8 +63,24 @@
 #example5 .color9 { background-color: var(--violet8); }
 #example5 .color10 { background-color: var(--violet9); }
 
-#example1 { --hue1: green; }
-#example2 { --hue1: red; }
-#example3 { --hue1: 200; }
-#example4 { --hue1: 250; }
-#example5 { --hue1: 350; }
+#example6 .color1 { background-color: var(--turquoise0); }
+#example6 .color2 { background-color: var(--turquoise1); }
+#example6 .color3 { background-color: var(--turquoise2); }
+#example6 .color4 { background-color: var(--turquoise3); }
+#example6 .color5 { background-color: var(--turquoise4); }
+#example6 .color6 { background-color: var(--turquoise5); }
+#example6 .color7 { background-color: var(--turquoise6); }
+#example6 .color8 { background-color: var(--turquoise7); }
+#example6 .color9 { background-color: var(--turquoise8); }
+#example6 .color10 { background-color: var(--turquoise9); }
+
+#example7 .color1 { background-color: var(--orange0); }
+#example7 .color2 { background-color: var(--orange1); }
+#example7 .color3 { background-color: var(--orange2); }
+#example7 .color4 { background-color: var(--orange3); }
+#example7 .color5 { background-color: var(--orange4); }
+#example7 .color6 { background-color: var(--orange5); }
+#example7 .color7 { background-color: var(--orange6); }
+#example7 .color8 { background-color: var(--orange7); }
+#example7 .color9 { background-color: var(--orange8); }
+#example7 .color10 { background-color: var(--orange9); }

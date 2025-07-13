@@ -11,16 +11,16 @@
     --green8: hsl(60, 34%, 93%);
     --green9: hsl(55, 26%, 98%);
 
-    --red0: hsl(335, 94%, 7%);
-    --red1: hsl(340, 86%, 14%);
-    --red2: hsl(345, 77%, 28%);
-    --red3: hsl(350, 61%, 41%);
-    --red4: hsl(355, 57%, 54%);
-    --red5: hsl(5, 53%, 66%);
-    --red6: hsl(10, 48%, 75%);
-    --red7: hsl(15, 42%, 85%);
-    --red8: hsl(20, 34%, 93%);
-    --red9: hsl(25, 26%, 98%);
+    --red0: hsl(4, 94%, 7%);
+    --red1: hsl(2, 86%, 14%);
+    --red2: hsl(0, 77%, 28%);
+    --red3: hsl(353, 61%, 41%);
+    --red4: hsl(351, 57%, 54%);
+    --red5: hsl(349, 53%, 66%);
+    --red6: hsl(347, 48%, 75%);
+    --red7: hsl(345, 42%, 85%);
+    --red8: hsl(343, 34%, 93%);
+    --red9: hsl(341, 20%, 98%);
 
     --blue0: hsl(239, 94%, 7%);
     --blue1: hsl(234, 86%, 14%);
@@ -54,4 +54,26 @@
     --violet7: hsl(295, 42%, 85%);
     --violet8: hsl(292, 34%, 93%);
     --violet9: hsl(290, 26%, 98%);
+
+    --turquoise0: hsl(152, 94%, 7%);
+    --turquoise1: hsl(154, 86%, 14%);
+    --turquoise2: hsl(156, 77%, 28%);
+    --turquoise3: hsl(158, 61%, 41%);
+    --turquoise4: hsl(160, 57%, 54%);
+    --turquoise5: hsl(162, 53%, 66%);
+    --turquoise6: hsl(164, 48%, 75%);
+    --turquoise7: hsl(166, 42%, 85%);
+    --turquoise8: hsl(168, 34%, 93%);
+    --turquoise9: hsl(170, 20%, 98%);
+
+    --orange0: hsl(3, 94%, 7%);
+    --orange1: hsl(6, 86%, 14%);
+    --orange2: hsl(9, 77%, 28%);
+    --orange3: hsl(12, 61%, 41%);
+    --orange4: hsl(15, 57%, 54%);
+    --orange5: hsl(18, 53%, 66%);
+    --orange6: hsl(21, 48%, 75%);
+    --orange7: hsl(24, 42%, 85%);
+    --orange8: hsl(27, 34%, 93%);
+    --orange9: hsl(30, 20%, 98%);
 }
