@@ -3,7 +3,9 @@
 $theme-colors: (
         'info': tomato,
         'danger': teal,
-        'exilic': #8ccfff
+        'exilic': #a48b9b
 );
+
+$enable-gradients: true;
 
 @import 'bootstrap/scss/bootstrap';
