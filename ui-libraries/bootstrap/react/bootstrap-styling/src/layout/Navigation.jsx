@@ -6,7 +6,6 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 
 const Navigation = () => {
     return (
-        <div>
             <Navbar bg="exilic" fixed="top" expand="lg" >
                 <Container>
                     <Navbar.Brand href="#home">Place Software</Navbar.Brand>
@@ -30,7 +29,6 @@ const Navigation = () => {
                     </Navbar.Collapse>
                 </Container>
             </Navbar>
-        </div>
     );
 };
 
