@@ -2,6 +2,7 @@
 import './App.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navigation from "./layout/Navigation.jsx";
+import Main from "./layout/Main.jsx";
 
 function App() {
 
@@ -9,7 +10,7 @@ function App() {
   return (
       <>
           <Navigation />
-          <button className="btn btn-exilic btn-sm">Logga in</button>
+          <Main />
       </>
   )
 }
