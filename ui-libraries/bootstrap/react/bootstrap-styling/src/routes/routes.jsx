@@ -1,6 +1,7 @@
 import {createBrowserRouter} from "react-router";
 import App from "../App.jsx";
 import Main from "../layout/Main.jsx";
+import CustomerForm from "../layout/CustomerForm.jsx";
 
 export const router = createBrowserRouter([
     {
@@ -16,7 +17,7 @@ export const router = createBrowserRouter([
             },
             {
                 path: "/form",
-                element: <h1>Form</h1>
+                element: <CustomerForm />
             },
             {
                 path: "/contact",

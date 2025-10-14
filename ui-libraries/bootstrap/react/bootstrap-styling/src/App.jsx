@@ -11,7 +11,9 @@ function App() {
   return (
       <>
           <Navigation />
-          <Outlet/>
+          <div className="container-fluid">
+            <Outlet/>
+          </div>
       </>
   )
 }
