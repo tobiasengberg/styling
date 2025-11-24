@@ -9,9 +9,46 @@
 </head>
 <body>
 <div class="container">
-    <h1>Hello, modularity!</h1>
-    <button id="popoverButton" type="button" class="btn btn-primary btn-lg" data-bs-toggle="popover" title="ESM in Browser" data-bs-content="Bang!">Custom popover</button>
-    <button class="btn btn-primary-bg-subtle btn-sm">Logga in</button>
+    <header class="mt-5">
+        <ul class="nav nav-tabs">
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Threads</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Links</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Ideas</a>
+            </li>
+        </ul>
+    </header>
+    <div class="row mt-3">
+        <div class="col-8">
+            <h1>Hello, modularity!</h1>
+            <button id="popoverButton" type="button" class="btn btn-primary btn-lg" data-bs-toggle="popover" title="ESM in Browser" data-bs-content="Bang!">Custom popover</button>
+            <button class="btn btn-primary-bg-subtle btn-sm">Logga in</button>
+        </div>
+        <div class="col-4 bg-warning">
+            <h2 class="display-1 text-center">Boxes</h2>
+        </div>
+    </div>
+    <div class="row bg-info-subtle">
+        <div class="col">
+            <p class="p-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet cumque omnis perspiciatis! Aperiam assumenda atque dolores enim, ex laudantium molestias natus nisi quos repellat sapiente tempore tenetur ut velit voluptatum? Doloremque iure laborum recusandae rem sequi sint temporibus voluptate? Ab accusamus aperiam, ea itaque minima natus numquam, obcaecati, odit recusandae sed ut velit? Doloremque, sed.</p>
+        </div>
+        <div class="col">
+            <h3 class="p-5">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores eaque illo qui repellendus veniam.
+            </h3>
+        </div>
+    </div>
+    <div class="row bg-light p-5">
+        <form action="">
+            <label class="px-3" for="search">Search:</label>
+            <input type="text" id="search">
+        </form>
+    </div>
+
 </div>
 
 <script async src="https://cdn.jsdelivr.net/npm/es-module-shims@1/dist/es-module-shims.min.js" crossorigin="anonymous"></script>
