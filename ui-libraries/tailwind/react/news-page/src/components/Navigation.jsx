@@ -4,7 +4,7 @@ const Navigation = () => {
     return (
         <div className="container mx-auto flex justify-between py-3 ">
             <p className="text-4xl font-black text-slate-800">place.software</p>
-            <nav className="flex justify-between w-80">
+            <nav className="flex justify-between w-110">
                 <a className="text-slate-200 text-xl font-bold" href="#">Contextualism</a>
                 <a className="text-slate-200 text-xl font-bold" href="#">System</a>
                 <a className="text-slate-200 text-xl font-bold" href="#">Place</a>
