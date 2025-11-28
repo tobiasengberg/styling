@@ -10,7 +10,7 @@ const Navigation = () => {
                 <a className="text-slate-200 text-xl font-bold" href="#">Place</a>
             </nav>
             <div className="flex justify-between w-60">
-                <a className="text-xl font-bold text-yellow-300" href="#">Contact</a>
+                <a className="text-xl font-bold text-yellow-300" href="#">Kontakta</a>
                 <a className="text-slate-200 text-xl font-bold" href="#">About</a>
             </div>
         </div>

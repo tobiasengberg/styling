@@ -4,6 +4,7 @@ import FormatHeadline1 from "../components/paragraphFormats/FormatHeadline1.jsx"
 import Button from "../components/ui/Button.jsx";
 import MainSection from "../components/ui/MainSection.jsx";
 import TwoThreeContent from "../components/ui/TwoThreeContent.jsx";
+import report from "../assets/report.svg";
 
 const First = () => {
     return (
@@ -19,7 +20,8 @@ const First = () => {
                     </TwoThreeContent>
                 </MainSection>
                 <MainSection>
-                    <h3 className="text-yellow-300 font-light-bold text-3xl px-40 py-30">Download report</h3>
+                    <h3 className="text-yellow-300 font-light-bold text-3xl px-40 py-30">Ladda ner rapport</h3>
+                    <img className="w-95 absolute -top-8 left-140 z-40" src={report} alt="test"/>
                 </MainSection>
                 <MainSection>
                     <div className="grid grid-cols-5">
