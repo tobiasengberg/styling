@@ -7,8 +7,8 @@ const Layout = ({children}) => {
             <div className="border-b-1 border-slate-500">
                 <Navigation />
             </div>
-            <div className="">
-                <div className="pt-5 container mx-auto">
+            <div>
+                <div className="container mx-auto border-x-1 border-slate-500 min-h-screen">
                     {children}
                 </div>
             </div>
