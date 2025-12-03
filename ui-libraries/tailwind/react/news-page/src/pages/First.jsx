@@ -1,38 +1,26 @@
 import React from 'react';
 import ArticleCard from "../components/ArticleCard.jsx";
-import FormatHeadline1 from "../components/paragraphFormats/FormatHeadline1.jsx";
-import Button from "../components/ui/Button.jsx";
 import MainSection from "../components/ui/MainSection.jsx";
 import TwoThreeContent from "../components/ui/TwoThreeContent.jsx";
-import report from "../assets/report.svg";
 import ArticleAbstract from "../components/ui/ArticleAbstract.jsx";
 import {sideAbstracts} from "../data/sideAbstracts.js";
+import TopSecondary from "../components/areas/TopSecondary.jsx";
+import TopPrimary from "../components/areas/TopPrimary.jsx";
 
 
 const First = () => {
     return (
-        <div className="grid grid-cols-8">
-            <div className="col-span-6 min-h-screen border-r-1 border-slate-400">
+        <div className="grid grid-cols-16">
+            <div className="col-span-12 min-h-screen border-r-1 border-slate-400">
                 <MainSection>
                     <TwoThreeContent>
-                        <ArticleCard item={{src:"./img/computer.JPG", alt:"test", title:"En sorts minnesfunktion kopplad till plats och rörelse", description:"Alias architecto commodi culpa dicta dignissimos eos hic illo, magni minus nesciunt nihil odio officia perferendis perspiciatis placeat qui quisquam reprehenderit repudiandae rerum, sit! Fuga, laudantium nobis! Atque aut earum expedita libero natus neque odit quia sit tempora tenetur, unde!"}}/>
-                        <div className=" col-span-3 p-5 py-10">
-                            <h2 className="mb-20 text-slate-300 font-medium text-7xl leading-18 tracking-tight text-balance">Meningsfull utveckling av informationsmiljöer</h2>
-                            <p className="text-2xl">Eaque, hic magnam. Ad aperiam consequuntur cumque deserunt earum eos et eveniet explicabo harum illo iure iusto laboriosam laborum natus nemo.</p>
-                            <p className="text-2xl">• Cupiditate dolorum ducimus optio</p>
-                            <p className="text-2xl">• Minus pariatur repellat</p>
-                            <p className="text-2xl">• Allum impedit iste iure, modi necessitatibus</p>
-                            <p className="text-2xl">• Relationell data med Neo4j</p>
-                        </div>
+                        <TopSecondary item={{src:"./img/schema2.png", alt:"test", title:"En sorts minnesfunktion kopplad till plats och rörelse", description:"Alias architecto commodi culpa dicta dignissimos eos hic illo, magni minus nesciunt nihil odio officia perferendis perspiciatis placeat qui quisquam reprehenderit repudiandae rerum, sit! Fuga, laudantium nobis! Atque aut earum expedita libero natus neque odit quia sit tempora tenetur, unde!"}}/>
+                        <TopPrimary />
                     </TwoThreeContent>
                 </MainSection>
                 <MainSection>
 
-                    <div className="px-40 py-20 text-center w-180">
-                        <p className="text-bold text-xl pb-10 ">Om företagets kontinuerliga arbete med plats och digitala system</p>
-                        <h3 className="text-yellow-200 font-medium text-3xl">Ladda ner rapport</h3>
-                    </div>
-                    <img className="w-95 absolute -top-8 left-180 z-40" src={report} alt="test"/>
+
 
                 </MainSection>
                 <MainSection>
@@ -44,10 +32,10 @@ const First = () => {
                     </div>
                 </MainSection>
             </div>
-            <div className="col-span-2 min-h-screen">
+            <div className="col-span-4 min-h-screen">
                 <MainSection>
                     <div className="p-5 pt-90">
-                        <h3 className="font-bold text-xl text-slate-800 pb-8">Artiklar</h3>
+                        <h3 className="font-bold text-xl text-slate-800 pb-8">Läs mer</h3>
                         <div>
                             {sideAbstracts.map(item => <ArticleAbstract key={item.id} id={item.id} title={item.title} summary={item.summary}/>)}
                         </div>
@@ -87,7 +75,6 @@ const First = () => {
                     </div>
                 </MainSection>
             </div>
-
         </div>
     );
 };

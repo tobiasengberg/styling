@@ -2,7 +2,7 @@ import React from 'react';
 
 const TwoThreeContent = ({children}) => {
     return (
-        <div className="grid grid-cols-5  first:col-span-2 last:col-span-3">
+        <div className="grid grid-cols-12  first:col-span-4 last:col-span-8">
             {children}
         </div>
     );

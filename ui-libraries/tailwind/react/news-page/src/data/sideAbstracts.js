@@ -2,7 +2,7 @@ export const sideAbstracts = [
     {
         id: 1,
         title: "Consectetur adipisicing elit",
-        summary: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque porro quae unde voluptatum. Ab aut dolore facilis in numquam officiis perspiciatis quam quos sed!"
+        summary: "Team topologies, microservices, offices. Doloremque porro quae unde voluptatum. Ab aut dolore facilis in numquam officiis perspiciatis quam quos sed!"
     },
     {
         id: 2,
