@@ -24,11 +24,20 @@ const First = () => {
 
                 </MainSection>
                 <MainSection>
-                    <div className="grid grid-cols-5">
-                        <ArticleCard item={{src:"./img/pic1.jpg", alt:"test", title:"test", description:"this is a text"}}/>
-                        <ArticleCard item={{src:"./img/pic1.jpg", alt:"test", title:"test", description:"this is a text"}}/>
-                        <ArticleCard item={{src:"./img/pic1.jpg", alt:"test", title:"test", description:"this is a text"}}/>
-                        <ArticleCard item={{src:"./img/pic1.jpg", alt:"test", title:"test", description:"this is a text"}}/>
+                    <div className="grid grid-cols-2">
+                        <ArticleCard item={{
+                            src:"./img/fold.png",
+                            alt:"test",
+                            title:"Fördelen med att hålla sig på ytan",
+                            description:"this is a text"
+                        }}/>
+                        <ArticleCard item={{
+                            src:"./img/axo.png",
+                            alt:"test",
+                            title:"Den urbana lockelsen att kombinera",
+                            description:"this is a text <br /> • contiguity \n • samtidighet \n • "
+                        }}/>
+
                     </div>
                 </MainSection>
             </div>
@@ -41,39 +50,39 @@ const First = () => {
                         </div>
                     </div>
                 </MainSection>
-                <MainSection>
-                    <div className="p-5 pt-10">
-                        <h3 className="font-bold text-xl text-slate-800">Contextualism</h3>
-                        <p className="text-white">Consectetur adipisicing elit</p>
-                        <p className="text-white">Animi cupiditate fugit illum</p>
-                        <p className="text-white">Quibusdam tenetur ullam voluptates!</p>
-                        <p className="text-white">Aspernatur beatae, commodi consequatur</p>
-                        <p className="text-white">Dolor earum ex fugiat, iusto modi mollitia</p>
-                        <p className="text-white">Aliquid atque beatae ducimus </p>
-                    </div>
-                </MainSection>
-                <MainSection>
-                    <div className="p-5 pt-10">
-                        <h3 className="font-bold text-xl text-slate-800">Contextualism</h3>
-                        <p className="text-white">Consectetur adipisicing elit</p>
-                        <p className="text-white">Animi cupiditate fugit illum</p>
-                        <p className="text-white">Quibusdam tenetur ullam voluptates!</p>
-                        <p className="text-white">Aspernatur beatae, commodi consequatur</p>
-                        <p className="text-white">Dolor earum ex fugiat, iusto modi mollitia</p>
-                        <p className="text-white">Aliquid atque beatae ducimus </p>
-                    </div>
-                </MainSection>
-                <MainSection>
-                    <div className="p-5 pt-10">
-                        <h3 className="font-bold text-xl text-slate-800">Contextualism</h3>
-                        <p className="text-white">Consectetur adipisicing elit</p>
-                        <p className="text-white">Animi cupiditate fugit illum</p>
-                        <p className="text-white">Quibusdam tenetur ullam voluptates!</p>
-                        <p className="text-white">Aspernatur beatae, commodi consequatur</p>
-                        <p className="text-white">Dolor earum ex fugiat, iusto modi mollitia</p>
-                        <p className="text-white">Aliquid atque beatae ducimus </p>
-                    </div>
-                </MainSection>
+                {/*<MainSection>*/}
+                {/*    <div className="p-5 pt-10">*/}
+                {/*        <h3 className="font-bold text-xl text-slate-800">Contextualism</h3>*/}
+                {/*        <p className="text-white">Consectetur adipisicing elit</p>*/}
+                {/*        <p className="text-white">Animi cupiditate fugit illum</p>*/}
+                {/*        <p className="text-white">Quibusdam tenetur ullam voluptates!</p>*/}
+                {/*        <p className="text-white">Aspernatur beatae, commodi consequatur</p>*/}
+                {/*        <p className="text-white">Dolor earum ex fugiat, iusto modi mollitia</p>*/}
+                {/*        <p className="text-white">Aliquid atque beatae ducimus </p>*/}
+                {/*    </div>*/}
+                {/*</MainSection>*/}
+                {/*<MainSection>*/}
+                {/*    <div className="p-5 pt-10">*/}
+                {/*        <h3 className="font-bold text-xl text-slate-800">Contextualism</h3>*/}
+                {/*        <p className="text-white">Consectetur adipisicing elit</p>*/}
+                {/*        <p className="text-white">Animi cupiditate fugit illum</p>*/}
+                {/*        <p className="text-white">Quibusdam tenetur ullam voluptates!</p>*/}
+                {/*        <p className="text-white">Aspernatur beatae, commodi consequatur</p>*/}
+                {/*        <p className="text-white">Dolor earum ex fugiat, iusto modi mollitia</p>*/}
+                {/*        <p className="text-white">Aliquid atque beatae ducimus </p>*/}
+                {/*    </div>*/}
+                {/*</MainSection>*/}
+                {/*<MainSection>*/}
+                {/*    <div className="p-5 pt-10">*/}
+                {/*        <h3 className="font-bold text-xl text-slate-800">Contextualism</h3>*/}
+                {/*        <p className="text-white">Consectetur adipisicing elit</p>*/}
+                {/*        <p className="text-white">Animi cupiditate fugit illum</p>*/}
+                {/*        <p className="text-white">Quibusdam tenetur ullam voluptates!</p>*/}
+                {/*        <p className="text-white">Aspernatur beatae, commodi consequatur</p>*/}
+                {/*        <p className="text-white">Dolor earum ex fugiat, iusto modi mollitia</p>*/}
+                {/*        <p className="text-white">Aliquid atque beatae ducimus </p>*/}
+                {/*    </div>*/}
+                {/*</MainSection>*/}
             </div>
         </div>
     );
