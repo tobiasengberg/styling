@@ -1,5 +1,6 @@
+import * as React from "react";
 
-const Box = ({span} : {span : number}) => {
+const Box = ( {span, children} : {span : number, children: React.ReactNode}) => {
     const colSpanClasses: { [key: number]: string } = {
         2: 'col-span-2',
         4: 'col-span-4',
@@ -9,7 +10,7 @@ const Box = ({span} : {span : number}) => {
         12: 'col-span-12',
         16: 'col-span-16'
     }
-    return <div className={`${colSpanClasses[span]} bg-gray-200`}>Box {span}</div>
+    return <div className={`${colSpanClasses[span]} bg-gray-200 h-40`}>{children}</div>
 };
 
 export default Box;
