@@ -13,6 +13,9 @@ function App() {
         <div className="col-start-8 col-end-12 row-start-4 row-end-8 h-10">
             <p className="text-6xl m-0 p-0 font-bold leading-none tracking-tight text-blue-300">all pretenses</p>
         </div>
+        <div className="col-start-10 col-end-13 row-start-2 row-end-3 relative">
+            <p className="absolute top-4 text-5xl font-black bg-green-300 py-12 px-1 text-white rounded-full right-0 -rotate-12">100%</p>
+        </div>
     </div>
   )
 }
