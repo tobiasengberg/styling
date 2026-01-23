@@ -2,6 +2,7 @@ import './App.css'
 import Composition1 from "./compositions/Composition1.tsx";
 import Composition2 from "./compositions/Composition2.tsx";
 import Composition3 from "./compositions/Composition3.tsx";
+import Composition4 from "./compositions/Composition4.tsx";
 
 function App() {
 
@@ -10,6 +11,7 @@ function App() {
         <Composition1 />
         <Composition2 />
         <Composition3 />
+        <Composition4 />
     </div>
   )
 }
