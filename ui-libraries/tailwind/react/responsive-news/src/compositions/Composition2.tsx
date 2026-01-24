@@ -1,7 +1,7 @@
 
 const Composition2 = () => {
     return (
-        <div className="col-start-4 col-end-12 row-start-8 row-end-15 grid grid-cols-8 grid-rows-6 relative">
+        <div className="col-start-4 col-end-12 row-start-8 row-end-13 grid grid-cols-8 grid-rows-6 relative">
             <div className="bg-slate-200 w-full h-full row-span-7 col-span-2">
                 <p className="text-5xl font-bold text-center text-slate-100 absolute top-20 left-10">ResponseFormat</p>
             </div>
