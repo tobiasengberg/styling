@@ -4,6 +4,7 @@ import Composition2 from "./compositions/Composition2.tsx";
 import Composition3 from "./compositions/Composition3.tsx";
 import Composition4 from "./compositions/Composition4.tsx";
 import Composition5 from "./compositions/Composition5.tsx";
+import Composition6 from "./compositions/Composition6.tsx";
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
         <Composition3 />
         <Composition4 />
         <Composition5 />
+        <Composition6 />
     </div>
   )
 }
